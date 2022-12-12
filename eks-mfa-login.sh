@@ -4,7 +4,7 @@ set -e
 if [ ! $# -eq 4 ]; then
   echo "Version: 0.0.2 -- See https://github.com/vilaca/eks-mfa-login for help."
   FILENAME=$(basename "$BASH_SOURCE")
-  echo "Usage: ./$FILENAME arn cluster region mfa-token"
+  echo "Usage: ./$FILENAME arn profile region mfa-token"
   exit 1
 fi
 
