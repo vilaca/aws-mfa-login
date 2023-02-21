@@ -1,14 +1,14 @@
-# EKS MFA Login
+# AWS MFA Login
 
-Login to AWS EKS using MFA.
+Login to AWS using MFA.
 
 ## Usage
 
-    ./eks-mfa-login.sh arn profile region mfa
+    ./aws-mfa-login.sh arn profile region
 
 ## Example
 
-    ./eks-mfa-login.sh arn:aws:iam::12345678901:mfa/username mfa eu-west-1 123456
+    ./aws-mfa-login.sh arn:aws:iam::12345678901:mfa/username mfa eu-west-1
 
 ## Requirements
 
